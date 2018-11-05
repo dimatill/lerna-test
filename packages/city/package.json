@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@astrumu/test_core": "^1.0.0",
+    "@astrumu/test_state": "^1.0.0",
     "type-graphql": "^0.15.0"
   }
 }
