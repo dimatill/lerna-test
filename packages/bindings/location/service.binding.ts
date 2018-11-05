@@ -2,7 +2,7 @@ import { makeBindingClass, Options } from 'graphql-binding'
 import { GraphQLResolveInfo, GraphQLSchema } from 'graphql'
 import { IResolvers } from 'graphql-tools/dist/Interfaces'
 import schema from  './schema'
-
+ 
 export interface Query {
     state: <T = State>(args: { stateId: ID_Output }, info?: GraphQLResolveInfo | string, options?: Options) => Promise<T | null> ,
     states: <T = State[]>(args?: {}, info?: GraphQLResolveInfo | string, options?: Options) => Promise<T> ,

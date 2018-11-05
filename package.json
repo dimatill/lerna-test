@@ -2,6 +2,12 @@
   "name": "@astrumu/lerna-test",
   "private": true,
   "devDependencies": {
+    "cz-lerna-changelog": "^2.0.0",
     "lerna": "^3.4.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
   }
 }
