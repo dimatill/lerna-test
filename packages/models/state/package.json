@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +13,8 @@
     "@astrumu/test_core": "^2.6.0",
     "@astrumu/test_models-city": "^2.7.0",
     "type-graphql": "^0.15.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.0.3"
   }
 }
