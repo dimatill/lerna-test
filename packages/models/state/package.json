@@ -1,9 +1,9 @@
 {
   "name": "@astrumu/test_models-state",
-  "version": "2.15.3",
+  "version": "2.15.4",
   "description": "",
   "main": "",
-  "files": ["/dist"],
+  "files": ["/dist/*"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
