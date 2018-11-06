@@ -2,7 +2,7 @@
   "name": "@astrumu/test_models-state",
   "version": "2.13.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
