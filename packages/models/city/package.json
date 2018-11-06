@@ -1,6 +1,6 @@
 {
   "name": "@astrumu/test_models-city",
-  "version": "2.12.0",
+  "version": "2.13.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@astrumu/test_core": "^2.6.0",
-    "@astrumu/test_models-state": "^2.12.0",
+    "@astrumu/test_models-state": "^2.13.0",
     "type-graphql": "^0.15.0"
   }
 }
