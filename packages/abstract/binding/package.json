@@ -15,10 +15,7 @@
   "dependencies": {
     "apollo-link-http": "^1.5.5",
     "graphql-binding": "^2.2.6",
-    "graphql-tools": "^4.0.3",
-    "isomorphic-fetch": "^2.2.1"
+    "graphql-tools": "^4.0.3"
   },
-  "devDependencies": {
-    "apollo-env": "^0.2.0"
-  }
+  "devDependencies": {}
 }
