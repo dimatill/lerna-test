@@ -1,6 +1,6 @@
 {
   "name": "@astrumu/test_models-state",
-  "version": "2.15.4",
+  "version": "2.15.5",
   "description": "",
   "main": "/dist/index.js",
   "files": ["/dist"],
