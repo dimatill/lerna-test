@@ -1,0 +1,24 @@
+{
+  "name": "@astrumu/test_abstract.binding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-link-http": "^1.5.5",
+    "graphql-binding": "^2.2.6",
+    "graphql-tools": "^4.0.3",
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "apollo-env": "^0.2.0"
+  }
+}

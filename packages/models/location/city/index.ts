@@ -1,9 +1,3 @@
-import { CityInput } from './input';
-import { ICity }  from './interface';
-import { City } from './type';
-
-export {
-  CityInput,
-  ICity,
-  City
-}
+export { CityInput } from './input';
+export { ICity }  from './interface';
+export { City } from './type';
