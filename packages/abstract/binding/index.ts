@@ -10,7 +10,7 @@ interface BindingConstructor<T> {
 export default async function<T>(uri: string, token?: string): Promise<T> {
   const linkParams = <FetchOptions>{
     uri,
-    fetch: <GlobalFetch['fetch']><unknown>fetch,
+    fetch: fetch,
   }
 
   if (token) linkParams.headers = { Authorization: `Bearer ${token}` };
