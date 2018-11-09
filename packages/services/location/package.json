@@ -1,0 +1,16 @@
+{
+  "name": "@astrumu/test_services.location",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@astrumu/test_abstract.binding": "^1.3.0",
+    "@astrumu/test_bindings.location": "^1.0.0",
+    "@astrumu/test_models.location": "^1.3.0"
+  }
+}

@@ -7,7 +7,7 @@ interface BindingConstructor<T> {
   new(...args: any[]): T
 }
 
-export default async function<T>(uri: string, token?: string): Promise<T> {
+export const constructBinding = async function constructBinding<T>(uri: string, token?: string): Promise<T> {
   const linkParams = <FetchOptions>{
     uri,
     fetch: fetch,

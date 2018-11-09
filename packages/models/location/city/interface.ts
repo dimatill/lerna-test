@@ -3,6 +3,7 @@ import { InterfaceType, Field, ID } from 'type-graphql';
 import { IResource } from '@astrumu/test_core/resource.interface';
 import { IState } from '../state';
 
+// add @ObjectType() ???
 @InterfaceType()
 export abstract class ICity implements IResource {
   @Field(type => ID)
