@@ -1,16 +1,20 @@
 {
   "name": "@astrumu/test_services.location",
-  "version": "1.2.0",
+  "version": "1.9.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@astrumu/test_abstract.binding": "^1.4.0",
-    "@astrumu/test_bindings.location": "^1.0.0",
-    "@astrumu/test_models.location": "^1.4.0"
+    "@astrumu/test_abstract.binding": "^1.5.0",
+    "@astrumu/test_bindings.location": "^1.1.0",
+    "@astrumu/test_models.location": "^1.9.0"
   }
 }
